@@ -33,7 +33,7 @@ then
     exit
 fi
 
-grep -o -e "Failures: [0-9]\+" output.txt | grep -o -e "[0-9]\+" 2> numFailure
-
+grep -o -e "Failures: [0-9]\+" output.txt 2> numFailure
+echo $numFailure
 
 exit
