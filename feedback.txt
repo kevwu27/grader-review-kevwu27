@@ -1,0 +1,13 @@
+The grade.sh code is slightly different from ours because you used $? to get the number of failures and we created a new variable for it.
+
+The output looks a little different from ours but also clean .
+
+It might be helpful to account for cases/submissions that do not compile or have syntax errors otherwise the code does not compile and the output of the tests are halted. 
+
+We were unable to originally compile the code on the lab3 submission. This might possibly be due to the operating system you originally tested the code on which is different from the one I am running the code on.
+
+You cleverly got the number of failures in the [0-9] format which is different from how we did it with the bash substring method
+
+We had to change the CPATH in order to get it to work so it might be cool to check  the operating system of the user when compiling  the JUnit tests
+
+Output is unclear and needs some formatting/refinement
